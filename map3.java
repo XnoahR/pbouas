@@ -17,7 +17,7 @@ public class map3 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(720, 480, 1); 
-        GreenfootImage bg = new GreenfootImage("D:/Kuliah/Semester_3/PBO/UAS/PBOUAS/images/Map/map3.png");
+        GreenfootImage bg = new GreenfootImage("C:/Users/User/pbouas/images/Map/map3.png");
         bg.scale(getWidth(), getHeight());
         setBackground(bg);
         sorcerer s = new sorcerer(5,5,70,35);
@@ -29,11 +29,11 @@ public class map3 extends World
     
     public void act(){
         if(Greenfoot.getRandomNumber(750) < 5){
-            addObject( new reaper1(), 700 , Greenfoot.getRandomNumber(200) +200);
+            addObject( new reaper2(), 700 , Greenfoot.getRandomNumber(200) +200);
             
         }
         if(Greenfoot.getRandomNumber(1000) < 2){
-            addObject( new golem1(), 700 , Greenfoot.getRandomNumber(200) +200);
+            addObject( new golem2(), 700 , Greenfoot.getRandomNumber(200) +200);
         }
     }
 
