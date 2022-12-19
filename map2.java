@@ -17,7 +17,7 @@ public class map2 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(720, 480, 1); 
-        GreenfootImage bg = new GreenfootImage("C:/Users/User/pbouas/images/Map/map2.png");
+        GreenfootImage bg = new GreenfootImage("‪C:/Users/User/pbouas/images/Map/map2.png");
         bg.scale(getWidth(), getHeight());
         setBackground(bg);
         sorcerer s = new sorcerer(5,5,70,35);
